@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-    UIMenu.showMenu();
-
+       Patient diego = new Patient("Diego", "diegom.gcalovi@gmail.com");
+       diego.showInfo();
     }
 }

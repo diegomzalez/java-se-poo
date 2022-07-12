@@ -7,13 +7,13 @@ public class UIMenu {
     };
     public static void showMenu(){
         System.out.println("Welcome to My Appointments");
-        System.out.println("Selecciona la opción deseada");
+        System.out.println("Select an option");
 
         int response = 0;
         do {
             System.out.println("1. Doctor");
             System.out.println("2. Patient");
-            System.out.println("0. Salir");
+            System.out.println("0. Exit");
 
             Scanner sc = new Scanner(System.in);
             response = Integer.valueOf(sc.nextLine());

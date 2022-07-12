@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c918157a-358a-4220-a340-10c0a6813609" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/UIMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UIMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UIMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/mvm-uml-oop.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
