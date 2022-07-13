@@ -3,24 +3,27 @@ import java.util.Scanner;
 public class Doctor {
     // Attributes
     static int id = 0;
-    String name;
-    String speciality;
+    private String name;
+    private String email;
+    private String speciality;
 
-    Doctor(String name, String speciality) {
+    Doctor(String name, String speciality, String email) {
         this.name = name;
         this.speciality = speciality;
-        System.out.println("Building a Doctor object");
+        this.email = email;
         id++;
-        System.out.println("Doctor name is: " + name);
     }
 
     // Methods
     public void showName() {
-        System.out.println(name);
+        System.out.println("Patient name: " + this.name);
         return;
     }
-
+    public void showEmail() {
+        System.out.println("Patient name: " + this.email);
+        return;
+    }
     public void showId() {
-        System.out.println("ID Doctor: " + id);
+        System.out.println("ID Doctor: " + this.id);
     }
 }

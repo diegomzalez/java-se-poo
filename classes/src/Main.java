@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-       Patient diego = new Patient("Diego", "diegom.gcalovi@gmail.com");
-       diego.showInfo();
+        Doctor said = new Doctor("Said Vargas", "Traumatology", "vargassaid@gmail.com");
+        Patient diego = new Patient("Diego", "diegom.gcalovi@gmail.com");
+        said.showName();
+        diego.showInfo();
     }
 }
