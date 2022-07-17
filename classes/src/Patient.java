@@ -13,7 +13,8 @@ public class Patient {
         this.email = email;
     }
 
-    public void setInfo(String address, String phoneNumber, String birthday, double weight, double height,
+    public void setInfo(String address, String phoneNumber, String birthday,
+            double weight, double height,
             String blood) {
         this.address = address;
         this.phoneNumber = phoneNumber;
@@ -23,8 +24,12 @@ public class Patient {
         this.blood = blood;
     }
 
-    public void showInfo() {
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
 
+    public String getWeight() {
+        return this.weight + " Kg.";
     }
 
 }
